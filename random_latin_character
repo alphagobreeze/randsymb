@@ -1,0 +1,13 @@
+import random
+import string
+
+def random_latin_character():
+    """
+    Returns a random character from the Latin alphabet.
+
+    :return: A random Latin character.
+    """
+    return random.choice(string.ascii_letters)
+
+# Example usage:
+print(random_latin_character())  # Output: A random character like 'G' or 'z'
